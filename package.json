@@ -1,5 +1,5 @@
 {
-  "name": "test1",
+  "name": "react-material-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.9",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
