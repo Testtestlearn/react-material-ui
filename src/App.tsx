@@ -5,9 +5,17 @@ import { Route, Routes } from "react-router-dom";
 import CrudTablePage from "./pages/CrudTablePage";
 import HomePage from "./pages/HomePage";
 import SettingsPage from "./pages/SettingsPage";
+import SwimLanesPage from "./pages/SwimLanesPage";
 import UserInputPage from "./pages/UserInputPage";
 
 const featureData = [
+  {
+    title: "Swim Lanes",
+    description:
+      "Interactive GoJS swim lanes diagram with collapsible, resizable, and re-orderable lanes.",
+    ctaLabel: "Open Swim Lanes",
+    ctaTo: "/swimlanes",
+  },
   {
     title: "Registration Form",
     description:
@@ -62,6 +70,7 @@ function App() {
         <Route path="/" element={<HomePage featureData={featureData} />} />
         <Route path="/crud" element={<CrudTablePage />} />
         <Route path="/form" element={<UserInputPage />} />
+        <Route path="/swimlanes" element={<SwimLanesPage />} />
         <Route
           path="/settings"
           element={
