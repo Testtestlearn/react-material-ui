@@ -78,23 +78,6 @@ function HomePage({ featureData }: HomePageProps) {
             Explore Features
           </Button>
           <Button
-            variant="contained"
-            color="secondary"
-            component={RouterLink}
-            to="/settings"
-            size="large"
-          >
-            Open Settings
-          </Button>
-          <Button
-            variant="outlined"
-            component={RouterLink}
-            to="/crud"
-            size="large"
-          >
-            Open CRUD Table
-          </Button>
-          <Button
             variant="outlined"
             color="secondary"
             href="https://react.dev"
