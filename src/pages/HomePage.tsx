@@ -56,9 +56,11 @@ function HomePage({ featureData }: HomePageProps) {
         <Typography
           variant="body1"
           color="text.secondary"
-          sx={{ mt: 2, maxWidth: "58ch" }}
+          sx={{ mt: 2, maxWidth: "100ch" }}
         >
-          This website is powered by React, Vite, and Material UI.
+          A modern web app built with React, Vite, and Material UI — featuring
+          interactive GoJS diagrams, form validation, CRUD data management, and
+          a fully customizable settings experience.
         </Typography>
 
         <Stack
